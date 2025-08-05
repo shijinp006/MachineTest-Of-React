@@ -1,4 +1,4 @@
-import React from "react";
+
 import myImage from "./assets/dxf91zhqd2z6b0bwg85ktm5s4.svg";
 
 export const Login = () => {
