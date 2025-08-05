@@ -1,6 +1,23 @@
 import myImage from "./assets/dxf91zhqd2z6b0bwg85ktm5s4.svg";
-
+import { useState, useEffect } from "react";
 export const Login = () => {
+  const [loading, setLoading] = useState<boolean>(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-screen bg-white">
+        <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent border-solid rounded-full animate-spin"></div>
+        <p className="mt-4 text-gray-700 text-lg font-semibold">Loading...</p>
+      </div>
+    );
+  }
   return (
     <div className="w-full min-h-screen bg-white">
       <header className="w-full h-24 flex items-center px-4 md:px-8 bg-white">
