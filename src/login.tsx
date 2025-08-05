@@ -3,8 +3,8 @@ import myImage from "./assets/dxf91zhqd2z6b0bwg85ktm5s4.svg";
 export const Login = () => {
   return (
     <div className="w-full min-h-screen bg-white">
-      <header className="w-full  h-24 flex items-center px-4 md:px-8 bg-white">
-        <div className="flex justify-between items-center w-full ">
+      <header className="w-full h-24 flex items-center px-4 md:px-8 bg-white">
+        <div className="flex justify-between items-center w-full flex-wrap">
           <a
             href="https://www.linkedin.com/in/your-profile"
             target="_blank"
@@ -15,11 +15,11 @@ export const Login = () => {
             <img
               src="ChatGPT Image Aug 5, 2025, 12_59_20 PM.png"
               alt="Logo"
-              className="w-16 h-16 md:w-40 md:h-40 border-none"
+              className="w-16 h-16 md:w-32 md:h-32 border-none"
             />
           </a>
 
-          <nav className="flex items-center gap-4 md:gap-6 text-sm">
+          <nav className="flex flex-wrap items-center gap-3 md:gap-6 text-sm mt-4 md:mt-0">
             <a
               href="#"
               className="flex flex-col items-center gap-1 hover:scale-105 transition-transform"
@@ -27,7 +27,7 @@ export const Login = () => {
               <img
                 src="https://static.vecteezy.com/system/resources/previews/011/020/178/non_2x/simple-outline-rocket-icon-sign-illustration-free-vector.jpg"
                 alt="Top Content"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">Top Content</span>
             </a>
@@ -39,7 +39,7 @@ export const Login = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo_CFEhk2tc9fryNioKkpu-G3tpwjF9CC9E5wAs2fe6TB-He51dvbrVFkfu57hCdxPTcY&usqp=CAU"
                 alt="People"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">People</span>
             </a>
@@ -51,7 +51,7 @@ export const Login = () => {
               <img
                 src="https://static.vecteezy.com/system/resources/previews/011/849/062/non_2x/online-learning-icon-online-education-icon-symbol-school-illustration-on-isolated-background-free-vector.jpg"
                 alt="Learning"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">Learning</span>
             </a>
@@ -63,7 +63,7 @@ export const Login = () => {
               <img
                 src="https://cdn-icons-png.flaticon.com/512/4192/4192708.png"
                 alt="Jobs"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">Jobs</span>
             </a>
@@ -75,7 +75,7 @@ export const Login = () => {
               <img
                 src="https://endlessicons.com/wp-content/uploads/2013/03/game-controller-icon-614x460.png"
                 alt="Games"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">Games</span>
             </a>
@@ -87,7 +87,7 @@ export const Login = () => {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQBUYrMVoTEb3XNC4LiIAwRLYU4m1O-LLm8bJoCNw5TR93bmnMa-7HO-q6ed2qFBoxmbk&usqp=CAU"
                 alt="Get the app"
-                className="w-8 h-8 rounded-full"
+                className="w-6 h-6 rounded-full"
               />
               <span className="text-xs">Get the app</span>
             </a>
@@ -107,8 +107,8 @@ export const Login = () => {
       </header>
 
       <div className="flex flex-col md:flex-row justify-between items-center px-4 md:px-16 py-10 gap-10">
-        <div className="w-full md:w-1/2 flex flex-col  items-start">
-          <h1 className="text-2xl md:text-5xl font-normal leading-tight mb-6 text-[#526a6e] text-start">
+        <div className="w-full md:w-1/2 flex flex-col items-start">
+          <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-6 text-[#526a6e] text-start">
             Welcome to your <br /> professional network
           </h1>
 
